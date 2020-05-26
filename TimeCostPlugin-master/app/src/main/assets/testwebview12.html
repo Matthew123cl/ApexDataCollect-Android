@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小嘻嘻嘻</title>
+		<script>
+
+			function callJS(){
+				var a = 1;
+				var b = 2;
+<!--		        android.showInfoFromJs("name");-->
+<!--				android.getInfoFromJs(a,b);-->
+				return "callJS-》okhttp"
+			}
+			function mycallJS(v){
+
+				var a = 1;
+				var b = 2;
+<!--					  android.myshowInfoFromJs(v);-->
+
+<!--		        android.showInfoFromJs("name");-->
+<!--			android.getInfoFromJs(a,b);-->
+				return "mycallJS-》okxxxxhttp"
+			}
+			function  test(){
+				alert('xxx');
+				var a = 1;
+				var b = 2;
+		        android.showInfoFromJs("name");
+				android.getInfoFromJs(a,b);
+			}
+
+			function  mytest(){
+				alert('xxx');
+				var a = 1;
+				var b = 2;
+		        android.myshowInfoFromJs("name");
+				android.mygetInfoFromJs(a,b);
+			}
+
+			
+			
+//			var name = document.getElementById("name_input").value;
+
+
+		</script>
+	</head>
+	<body>
+		<button onclick="test()">button</button>
+		小嘻嘻嘻
+		<button onclick="mytest()">动态添加</button>
+
+	</body>
+</html>
